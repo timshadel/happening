@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + "/../test_helper"
+require "test_helper"
 
 class ItemTest < Test::Unit::TestCase
   context "An Happening::S3::Request instance" do

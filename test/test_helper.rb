@@ -4,10 +4,9 @@ require 'test/unit'
 require 'shoulda'
 require 'mocha'
 
-$:.unshift(File.dirname(__FILE__) + "/../")
-
 require 'happening'
 
+require 'em-http'
 require 'em-http/mock'
 
 EventMachine.instance_eval do
